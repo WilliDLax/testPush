@@ -250,9 +250,11 @@ func optionalVars(num1: Int, num2: Int)->Int{
 //    }
 //    return 0
     
+    //Added change
+    
     //using guard let
     guard let total = total else {
-        return 0
+        return 7
     }
     
     return total
